@@ -1,0 +1,92 @@
+body {
+    background: #5e85a5;
+    font: normal 12pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1#titulo {
+    margin: auto;
+    padding: 0px;
+}
+
+h2 {
+    font: normal 5px;
+}
+
+section {
+    background: #d8d5d5;
+    border-radius: 5px;
+    padding: 13px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(14, 12, 12);
+}
+section#conteudo1 {
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+}
+
+section#conteudo2 {
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+}
+
+input#bma {
+    border-radius: 5px;
+    margin: auto;
+    height: 30px;
+    width: 250px;
+    
+}
+
+input#bmi {
+    border-radius: 5px;
+    margin: auto;
+    height: 30px;
+    width: 200px;
+}
+
+input#bpl {
+    border-radius: 5px;
+    margin: auto;
+    height: 30px;
+    width: 200px;
+}
+
+input#bal {
+    border-radius: 5px;
+    margin: auto;
+    height: 30px;
+    width: 200px;
+}
+
+input#bin {
+    border-radius: 5px;
+    margin: auto;
+    height: 30px;
+    width: 200px;
+}
+
+
+textarea {
+    font: normal 15pt Arial;
+    border-radius: 5px;
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgb(14, 12, 12);
+}
+
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

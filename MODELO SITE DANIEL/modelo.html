@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Texto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img id="lg" src="dandevlogobg.png" alt="marca">
+        </div>
+        <h1 >Conversor de Texto</h1>
+    </header>
+    <section>
+        <h1 id="titulo">Mude o formato do seu texto rápido e fácil!</h1>
+        <div id="dados">
+            <p> Quer transformar as letras dos textos para maiúsculas ou para minúsculas de uma vez só?</p> 
+            <p> É só usar nossa ferramenta abaixo. Digite o texto e escolha a formatação desejada.</p>
+            <p><textarea name="texto_digitado" id="tprin" cols="50" rows="5"></textarea></p>
+            <p id="legenda"></p>
+            <p>Transformações possíveis para o seu texto:</p>
+            <p>
+                <input type="button" value="TODAS AS LETRAS MAIÚSCULAS" onclick="maiusculas()" id="bma"> 
+                <input type="button" value="todas as letras minúsculas" onclick="minusculas()" id="bmi">
+                <input type="button" value="Primeira letra maiúscula" onclick="primeira_letra()" id="bpl">
+                <!--<input type="button" value="ToDaS As LeTrAs AlTeRnAdAs" onclick="alternado()" id="bal"> -->
+                <input type="button" value="Inverter a ordem das letras" onclick="inverter()" id="bin">
+            </p> 
+        </div>
+    </section>
+    <br>
+    <section>
+        <div id="Int">
+            O texto transformado fica assim:
+        </div>
+        <p><textarea name="texto_digitado" id="res" cols="50" rows="5"></textarea></p>
+    </section>
+    <br>
+    <section id="conteudo1">
+        <div>
+            <h1>Tipografia</h1>
+            <h2>Tipografia significa a impressão dos tipos, sendo que tipo é a fonte, ou a letra. Atualmente, Tipografia é o nome dado ao estudo, criação e aplicação de caracteres, estilos, formatos e disposição visual de palavras.</h2>
+        </div>
+        <div>
+            <p>Hoje em dia a tipografia é conhecida por ser uma ferramenta essencial do design gráfico, e tem extrema importância na construção do seu branding. Atualmente, Tipografia é o nome dado ao estudo, criação e aplicação de caracteres, estilos, formatos e disposição visual de palavras
+            Você gostaria de escolher uma tipografia que tenha impacto positivo e traga benefícios para sua marca?
+            Isso porque ela é capaz de representar, graficamente, valores e posicionamento da empresa, além de despertar sentimentos e percepções do público.
+            Por isso, uma tipografia mal utilizada é um grande tiro no pé, e pode levar sua estratégia de marketing por água abaixo.
+            Mas você sabia que, na verdade, tipografia é um tipo de impressão?
+            </p>
+            
+            <p>Com este artigo, você vai aprender o que é tipografia e tudo sobre essa área de estudo. Ao final, tenho certeza, se sentirá mais confiante na hora de defender o uso de uma ou outra fonte do seu site, blog, e-book ou qualquer outro material, digital ou impresso.
+            Se restarem dúvidas ou se você tiver algo para complementar, por favor, deixe um comentário!
+            Boa leitura!</p>
+            
+            <p>Antes de continuar, se você quer aumentar sua vendas e saber quais são as melhores estratégias para promover seu negócio online, clique aqui para receber o Guia Completo de Marketing Digital...
+            </p>
+        </div>
+    </section>
+    <br>
+    <section id="conteudo2">
+
+        <p>
+            <h1>História da Tipografia</h1>
+        </p>
+        <p>
+            O processo de impressão tipográfico tem sua origem com a criação dos tipos móveis, realizada pelo alemão Gutenberg, no início do século XV.
+            Com a invenção, a imprensa foi rapidamente difundida na Europa, e chegou na América Latina pelo México, em 1539.
+        </p>
+        <p>No Brasil, entretanto, essa indústria chegou tarde. Isso porque a corte portuguesa não permitia a entrada de tipografias por aqui.
+        Somente em 1808 que o país começou a contar com esse tipo de impressão.</p> 
+        <p>Até então, eram utilizadas prensas, em que utilizava-se uma matriz e, com ela, imprimia-se cada folha individualmente.
+        Até 1822, a Imprensa Régia, com suas prensas de mesa, detinham o monopólio de impressões brasileiras.</p> 
+        <p>Com a independência do Brasil, iniciou-se o processo de evolução das prensas e métodos de impressão, com diversos novos modelos.
+        Até 1970, em que o sistema offset roubou a cena por ser mais adequado às grandes tiragens da indústria gráficas.</p>
+
+        Com isso, método de impressão tipográfico perdeu espaço, mas não foi extinto. Isso porque ele tem características peculiares, com resultados que outros processos não são capazes de alcançar.
+       
+
+    </section>
+    <footer>
+        <p>Criado por &copy; DanielGFurtadoBezerra</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
